@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiew Weng Fai | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="nav-logo">WF</a>
+        
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+        
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- 
+    =============================================
+    HERO / INTRODUCTION SECTION
+    =============================================
+    -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-picture-wrapper">
+                <div class="profile-picture-placeholder">
+                    <img src="resources/ProfilePicture.jpg" alt="WengFai" class="profile-picture">
+                </div>
+            </div>
+            
+            <h1 class="hero-title">Chiew Weng Fai, Winfield</h1>
+            <p class="hero-subtitle">Business Intelligence & Low-Code Developers</p>
+            <p class="hero-description">
+                A curious technologist who loves solving problems — whether it's building 
+                dashboards, developing low-code apps, or exploring how AI can make 
+                everyday work better.
+            </p>
+            
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#projects" class="btn btn-secondary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    ABOUT SECTION
+    =============================================
+    -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="about-content">
+                <p>
+                    I work in Tech at TOUCH Community Services, a non-profit organization where 
+                    technology directly supports meaningful work. My role is wonderfully varied — 
+                    one day I'm building Power BI dashboards, the next I'm developing OutSystems 
+                    applications or working on AI solutions.
+                </p>
+                <p>
+                    I studied Computer Science with a focus on Data Analytics, which gave me 
+                    solid foundations in machine learning, Python, and various programming 
+                    languages. While I don't code daily anymore, that knowledge shapes how I 
+                    approach problems and evaluate solutions.
+                </p>
+                <p>
+                    Honestly? I'm still figuring out exactly where I want to specialize. What 
+                    I know is that I'm genuinely curious about AI, cloud technologies, and 
+                    building things that make work easier. I'm drawn to the practical side of 
+                    tech — tools and systems that people actually use and benefit from.
+                </p>   
+                <p>
+                    I believe good technology should feel invisible — it just works, helps 
+                    people do their jobs better, and doesn't get in the way.
+                </p>
+                <div class="skills-container">
+                    <span class="skill-tag">OutSystems</span>
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Data Analytics</span>
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">DAX & Power Query</span>
+                    <span class="skill-tag">Low-Code Development</span>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    WORK EXPERIENCE SECTION (Timeline)
+    =============================================
+    -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">July 2025 - Present</span>
+                        <h3 class="timeline-title">Digital Solutions, Data and AI Executives</h3>
+                        <p class="timeline-company">TOUCH Community Services • Singapore</p>
+                        <p class="timeline-description">
+                            Supporting a non-profit organization through technology and solutions that
+                            enhance operational efficiency and enable data-driven decision-making.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li>Develop and maintain business applications using OutSystems low-code platform</li>
+                            <li>Build interactive Power BI dashboards that transform complex data into actionable actions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2023 - April 2025</span>
+                        <h3 class="timeline-title">BI Developer & IT Analyst</h3>
+                        <p class="timeline-company">Synergy House Furniture Sdn Bhd • Malaysia</p>
+                        <p class="timeline-description">
+                            Empowered data-driven decision-making by designing interactive Power BI dashboards 
+                            and automating key business processes across departments.
+
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li>Increase reporting efficiency by 25% and accelerated decision-making speed</li>
+                            <li>Boosted Power BI adoption by 50% through custom metrics and stakeholder training</li>
+                            <li>Developed automated ETL pipelines integrating multiple data sources</li>
+                            <li>Streamlined operations through Wrike Project Management Automation</li>
+                            <li>Reduced downtime through fast technical support and system optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2022 - Nov 2022</span>
+                        <h3 class="timeline-title">Data Analyst Intern</h3>
+                        <p class="timeline-company">StatWorks Group • Malaysia</p>
+                        <p class="timeline-description">
+                            Enhance organizational decision-making through Power BI dashboards
+                            and competitive market intelligence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    EDUCATION SECTION (Timeline)
+    =============================================
+    -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2023</span>
+                        <h3 class="timeline-title">Bsc (Hons) in Computer Science with Specialism in Data Analytics</h3>
+                        <p class="timeline-company">Asia Pacific University of Technology & Innovation • Malaysia</p>
+                        <p class="timeline-description">
+                            
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2020</span>
+                        <h3 class="timeline-title">A-Levels</h3>
+                        <p class="timeline-company">Taylor's College • Malaysia</p>
+                        <p class="timeline-description">
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2014 - 2018</span>
+                        <h3 class="timeline-title">Sijil Pelajaran Malaysia, SPM</h3>
+                        <p class="timeline-company">SMK Kota Kemuning • Malaysia</p>
+                        <p class="timeline-description">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    CERTIFICATIONS SECTION (Grid - No Timeline)
+    =============================================
+    -->
+    <section id="certifications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <img src="resources/OutsystemsLogo.png" alt="OutSystemsLogo">
+                    </div>
+                    <h3 class="certification-title">Associate Developer (ODC)</h3>
+                    <p class="certification-issuer">OutSystems</p>
+                    <p class="certification-date">Issued: Sep 2025</p>
+                    <a href="https://www.outsystems.com/profile/e5vit2r4ax/overview" class="certification-link" target="_blank" rel="noopener">
+                        View Credential →
+                    </a>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <img src="resources/GoogleLogo.png" alt="GoogleLogo">
+                    </div>
+                    <h3 class="certification-title">Google Project Management: Specialization</h3>
+                    <p class="certification-issuer">Google</p>
+                    <p class="certification-date">Issued: Aug 2025</p>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/TTO5LO2ROERP" class="certification-link" target="_blank" rel="noopener">
+                        View Credential →
+                    </a>
+                </div>
+
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <img src="resources/MetaLogo.png" alt="MetaLogo">
+                    </div>
+                    <h3 class="certification-title">Programming with JavaScript</h3>
+                    <p class="certification-issuer">Meta</p>
+                    <p class="certification-date">Issued: May 2024</p>
+                    <a href="https://www.coursera.org/account/accomplishments/records/XBZP7YRBXFU6" class="certification-link" target="_blank" rel="noopener">
+                        View Credential →
+                    </a>
+                </div>
+                
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <img src="resources/SASLogo.svg" alt="SASLogo">
+                    </div>
+                    <h3 class="certification-title">SAS - Asia Pacific Univeristy of Technology and Innovation Joint Certificate in Computer Science and Data Analytics</h3>
+                    <p class="certification-issuer">SAS</p>
+                    <p class="certification-date">Issued: Dec 2023</p>
+                    <a href="https://www.credly.com/badges/1ee96604-3226-4c9c-b1e1-a70097e725a5/linked_in_profile" class="certification-link" target="_blank" rel="noopener">
+                        View Credential →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    PROJECTS SECTION
+    =============================================
+    -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="resources/Project1.png" alt="MyPersonalWebsite">
+                    </div>
+                    
+                    <div class="project-info">
+                        <h3 class="project-title">My Personal Website</h3>
+                        <p class="project-description">
+                            My first personal website project showcasing my profile, skills, and work. A platform to present my background and connect with others professionally.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank" rel="noopener">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    CONTACT SECTION
+    =============================================
+    -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always open to discussing new opportunities, interesting projects, 
+                    or just having a chat. Feel free to reach out!
+                </p>
+                
+                <a href="mailto:your.email@example.com" class="contact-email">
+                    winfieldchiewf@gmail.com
+                </a>
+                
+                <div class="social-links">
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/winfield28/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    
+                    <!-- GitHub -->
+                    <a href="https://github.com/WinfieldChiew" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    =============================================
+    FOOTER
+    =============================================
+    -->
+    <footer class="footer">
+        <p>© <span id="currentYear"></span> Chiew Weng Fai. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
