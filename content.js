@@ -3,20 +3,20 @@
 const CONTENT = {
   name: "Winfield Chiew",
   initials: "WC",
-  role: "Technology Lead · Social Services",
+  role: "Digital Solutions, Data & AI · Social Services",
   roles: [
     "Technology Lead",
     "Full-Stack Problem Solver",
-    "Data & AI Tinkerer",
-    "Low-Code Builder",
+    "Data & AI Practitioner",
+    "Low-Code Architect",
   ],
   tagline: "A curious technologist who loves solving problems — whether it's building dashboards, developing low-code apps, or exploring how AI can make everyday work better.",
   location: "Singapore",
   availability: "Open to collaborations",
   stats: [
-    { k: "Years in tech", v: "8+" },
-    { k: "Projects shipped", v: "40+" },
-    { k: "Lives touched", v: "10k+" },
+    { k: "Years in tech", v: "3+" },
+    { k: "Projects shipped", v: "10+" },
+    { k: "Lives touched", v: "1" },
   ],
 
   about: {
@@ -26,21 +26,21 @@ const CONTENT = {
       "Outside of work I'm usually reading about product teardowns, messing with local LLMs, or on a long walk with a podcast. Always happy to chat tech, nonprofit ops, or career pivots into mission-driven work.",
     ],
     values: [
-      { k: "Bias to ship", p: "A working v0.1 today beats a perfect v1 next quarter." },
-      { k: "Users first", p: "Shadow the people using the tool before writing a line of code." },
-      { k: "Pragmatic stack", p: "Right-size the tech — low-code and AI save more hours than they cost." },
-      { k: "Share the knowledge", p: "Document loudly. Teach the next person. Leave it better." },
+      { k: "Bias to ship", p: "A working prototype delivered today creates more learning and momentum than a polished solution that arrives next quarter." },
+      { k: "Users first", p: "Effective tools are built by understanding the people who will use them before any design decision is made or a line of code is written." },
+      { k: "Pragmatic stack", p: "The right technology is the one that solves the problem reliably and can be maintained by the team. Low-code, AI, and custom code each have their place." },
+      { k: "Share the knowledge", p: "Documentation, teaching, and open communication multiply the value of every piece of work. Leave things better than you found them." },
     ],
   },
 
   experience: [
     {
       current: true,
-      period: "2023 — Present",
+      period: "2025 — Present",
       tag: "Full-time",
-      role: "Technology Lead",
-      company: "Confidential Nonprofit",
-      companyNote: "social services · 200+ staff",
+      role: "Digital Solutions, Data & AI",
+      company: "TOUCH Community Services Limited",
+      companyNote: "social services · 500+ staff",
       bullets: [
         "Lead a small tech team covering IT support, internal tools, and data platforms across 5 programme offices.",
         "Shipped a case-management dashboard in Power BI that cut monthly reporting time from 3 days to 20 minutes.",
@@ -48,11 +48,11 @@ const CONTENT = {
       ],
     },
     {
-      period: "2020 — 2023",
+      period: "2023 — 2025",
       tag: "Full-time",
-      role: "IT & Data Analyst",
-      company: "Placeholder Social Services Org",
-      companyNote: "nonprofit",
+      role: "BI Developer & IT Analyst",
+      company: "Synergy House Furniture Berhad",
+      companyNote: "Household Goods",
       bullets: [
         "Owned tier-1 and tier-2 IT support for ~150 users; rebuilt onboarding playbook that halved laptop setup time.",
         "Built low-code workflows (Power Automate, Airtable) that replaced 12 standalone spreadsheets.",
@@ -60,33 +60,23 @@ const CONTENT = {
       ],
     },
     {
-      period: "2018 — 2020",
-      tag: "Full-time",
-      role: "Software Engineer",
-      company: "Placeholder Tech Consultancy",
-      companyNote: "B2B SaaS",
+      period: "2022 - 2022",
+      tag: "Internship",
+      role: "Data Analyst Intern",
+      company: "StatWorks Group",
+      companyNote: "Information Technology & Services",
       bullets: [
         "Full-stack feature delivery on a React + Node.js platform serving mid-market logistics clients.",
         "Wrote the team's first automated test suite, bringing deploy confidence from vibes to 78% coverage.",
       ],
     },
-    {
-      period: "2016 — 2018",
-      tag: "Internship → Junior",
-      role: "IT Support Engineer",
-      company: "Placeholder Institution",
-      companyNote: "higher education",
-      bullets: [
-        "First-line support for faculty and students across Windows, macOS, and AV rooms.",
-        "Built the team's knowledge base in Notion — cut repeat tickets by ~35%.",
-      ],
-    },
+
   ],
 
   education: {
-    year: "2012 — 2016",
-    degree: "B.Sc. Information Systems",
-    school: "Placeholder University",
+    year: "2020 — 2023",
+    degree: "Bachelor (Hons) in Computer Science with specialism in Data Analytics",
+    school: "Asia Pacific University",
     extras: [
       { k: "Focus", v: "Data Management · HCI" },
       { k: "Thesis", v: "Adoption of civic tech in community services" },
@@ -218,10 +208,9 @@ const CONTENT = {
   ],
 
   contact: {
-    // PLACEHOLDER — replace with real handles
-    email: "hello@example.com",
-    linkedin: "linkedin.com/in/placeholder",
-    github: "github.com/placeholder",
+    email: "winfieldchiewf@gmail.com",
+    linkedin: "linkedin.com/in/winfield28/",
+    github: "github.com/WinfieldChiew",
   },
 };
 
