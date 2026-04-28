@@ -128,10 +128,10 @@
               <span class="hero-card-chip">● AVAILABLE</span>
             </div>
           </div>
-          <div class="hero-float f1">
-            <span class="hero-float-dot"></span>
-            <span>shipping v2.0</span>
-          </div>
+          // <div class="hero-float f1">
+          //   <span class="hero-float-dot"></span>
+          //   <span>shipping v2.0</span>
+          // </div>
           <div class="hero-float f2">
             <span class="hero-float-dot"></span>
             <span>uptime: 99.98%</span>
