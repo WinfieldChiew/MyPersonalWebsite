@@ -16,14 +16,14 @@ const CONTENT = {
   stats: [
     { k: "Years in tech", v: "3+" },
     { k: "Projects shipped", v: "10+" },
-    { k: "Lives touched", v: "1" },
+    { k: "Domains Covered", v: "5" },
   ],
 
   about: {
     paragraphs: [
       "I work at the intersection of <strong>technology and social impact</strong>, embedded in a nonprofit tech team that handles everything from day-to-day IT support to building the tools that let frontline staff do their best work.",
-      "My scope is broad by design. One week I'm troubleshooting a printer queue, the next I'm shipping a case-management dashboard, the week after that I'm prototyping an AI assistant that summarizes client notes. I like it that way — <strong>context is compounding</strong>.",
-      "Outside of work I'm usually reading about product teardowns, messing with local LLMs, or on a long walk with a podcast. Always happy to chat tech, nonprofit ops, or career pivots into mission-driven work.",
+      "My role is wonderfully varied. One week I'm building Power BI dashboards, the next I'm developing low-code apps using OutSystems and Power Apps or working on AI solutions. I like being a mixture of <strong>builder, problem solver, and knowledge sharer</strong>, it keeps me learning and lets me have impact in different ways.",
+      "I believe good technology should feel invisible, it just works, helps people do their jobs better and doesn't get in the way. Always happy to chat tech, nonprofit ops, or career pivots into mission-driven work.",
     ],
     values: [
       { k: "Bias to ship", p: "A working prototype delivered today creates more learning and momentum than a polished solution that arrives next quarter." },
@@ -42,9 +42,8 @@ const CONTENT = {
       company: "TOUCH Community Services Limited",
       companyNote: "social services · 500+ staff",
       bullets: [
-        "Lead a small tech team covering IT support, internal tools, and data platforms across 5 programme offices.",
-        "Shipped a case-management dashboard in Power BI that cut monthly reporting time from 3 days to 20 minutes.",
-        "Introduced an internal AI copilot (RAG over SOP documents) now used by 60+ frontline staff weekly.",
+        "Develop and maintain business applications using OutSystems, Power Apps, and custom code to streamline operations across organisation.",
+        "Build interactive Power BI dashboards and reports that unify data across programmes, improving visibility and decision-making for leadership and frontline staff.",
       ],
     },
     {
@@ -54,9 +53,11 @@ const CONTENT = {
       company: "Synergy House Furniture Berhad",
       companyNote: "Household Goods",
       bullets: [
-        "Owned tier-1 and tier-2 IT support for ~150 users; rebuilt onboarding playbook that halved laptop setup time.",
-        "Built low-code workflows (Power Automate, Airtable) that replaced 12 standalone spreadsheets.",
-        "Partnered with programme leads to define outcome metrics and standardise data collection across teams.",
+        "Increase reporting efficiency by 25% and accelerated decision-making speed.",
+        "Boosted Power BI adoption by 50% through custom metrics and stakeholder training.",
+        "Developed automated ETL pipelines integrating multiple data sources.",
+        "Streamlined operations through Wrike Project Management Automation.",
+        "Reduced downtime through fast technical support and system optimization.",
       ],
     },
     {
@@ -66,8 +67,7 @@ const CONTENT = {
       company: "StatWorks Group",
       companyNote: "Information Technology & Services",
       bullets: [
-        "Full-stack feature delivery on a React + Node.js platform serving mid-market logistics clients.",
-        "Wrote the team's first automated test suite, bringing deploy confidence from vibes to 78% coverage.",
+        "Enhance organizational decision-making through Power BI dashboards and competitive market intelligence.",
       ],
     },
 
@@ -85,12 +85,10 @@ const CONTENT = {
   },
 
   certifications: [
-    { name: "Microsoft Certified: Power BI Data Analyst Associate", issuer: "Microsoft", year: "2024" },
-    { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", year: "2023" },
-    { name: "Professional Scrum Master I", issuer: "Scrum.org", year: "2023" },
-    { name: "Google Cloud Digital Leader", issuer: "Google Cloud", year: "2022" },
-    { name: "Microsoft 365 Certified: Endpoint Admin Associate", issuer: "Microsoft", year: "2022" },
-    { name: "ITIL 4 Foundation", issuer: "AXELOS", year: "2021" },
+    { name: "Associate Developer (ODC)", issuer: "OutSystems", year: "2025" },
+    { name: "Google Project Management: Specialization", issuer: "Google", year: "2025" },
+    { name: "Programming with JavaScript", issuer: "Meta", year: "2024" },
+    { name: "SAS - Asia Pacific Univeristy of Technology and Innovation Joint Certificate in Computer Science and Data Analytics", issuer: "SAS", year: "2023" },
   ],
 
   skills: [
