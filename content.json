@@ -1,0 +1,44 @@
+// [
+//   {
+//     "id": "data-analytics-pipeline",
+//     "type": "project",
+//     "title": "Data Analytics Pipeline",
+//     "category": "Data Engineering",
+//     "year": "2024",
+//     "date": "2024-06-01",
+//     "excerpt": "End-to-end pipeline for aggregating and visualising program impact data across TOUCH services, cutting manual reporting time significantly.",
+//     "tags": ["Python", "Azure", "SQL"],
+//     "content": "## The problem\n\nProgramme managers at TOUCH were spending an entire week every quarter manually compiling impact reports from six different systems — none of which talked to each other. By the time a report landed on a desk, the data was already three months old.\n\n## The approach\n\nWe designed an end-to-end analytics pipeline on Azure: Python ETL jobs ingest data from source systems nightly, transform it into a clean unified data model in Azure SQL, and surface it through live Power BI dashboards.\n\nThe architecture was kept deliberately simple — no over-engineered orchestration, just reliable scheduled jobs with clear logging and alerting.\n\n## The outcome\n\nManual quarterly reporting was eliminated entirely. Programme managers now have self-serve dashboards updated every morning. What used to take a week of manual work happens automatically overnight — and the team can finally ask *why* questions instead of just *what* questions."
+//   },
+//   {
+//     "id": "ai-case-notes-assistant",
+//     "type": "project",
+//     "title": "AI Case Notes Assistant",
+//     "category": "AI / LLM",
+//     "year": "2024",
+//     "date": "2024-09-01",
+//     "excerpt": "LLM-powered tool helping social workers generate structured, compliant case documentation — reducing documentation time by over half.",
+//     "tags": ["LangChain", "OpenAI", "FastAPI"],
+//     "content": "## The problem\n\nSocial workers at TOUCH were spending a disproportionate amount of their time on documentation. Case notes had to follow a specific structure for regulatory compliance, but writing them from scratch after every session was exhausting and took time away from clients.\n\n## The approach\n\nWe built an internal tool using LangChain and the OpenAI API. Social workers fill in a short structured form after each session — key points, client responses, follow-up actions — and the tool generates a compliant, well-written case note draft.\n\nAll data stays on our own infrastructure. The prompt was carefully engineered with compliance requirements baked in, and social workers always review and edit before saving.\n\n## The outcome\n\nDocumentation time dropped by more than half. More importantly, the quality became more consistent — newer staff produced notes at the same standard as experienced ones. Social workers reported feeling less drained at the end of the day."
+//   },
+//   {
+//     "id": "volunteer-ops-dashboard",
+//     "type": "project",
+//     "title": "Volunteer Ops Dashboard",
+//     "category": "Dashboard",
+//     "year": "2023",
+//     "date": "2023-08-01",
+//     "excerpt": "Real-time scheduling and engagement analytics for managing 2,000+ TOUCH volunteers across all programmes.",
+//     "tags": ["Power BI", "JavaScript", "SQL"],
+//     "content": "## The problem\n\nTOUCH manages over 2,000 volunteers across dozens of programmes. Coordinating schedules, tracking engagement, and identifying volunteers at risk of dropping off was done entirely through spreadsheets and manual follow-ups.\n\n## The approach\n\nWe built a real-time operations dashboard in Power BI, pulling from the volunteer management system via SQL. Key views included upcoming session coverage, volunteer engagement trends, and a churn-risk model based on activity patterns.\n\nA lightweight JavaScript companion page let programme coordinators view their own team's data without needing Power BI licences.\n\n## The outcome\n\nVolunteer coordinators could spot coverage gaps days in advance instead of the morning of. Retention improved as at-risk volunteers were followed up proactively. The dashboard became the go-to tool for the volunteer management team's weekly planning."
+//   },
+//   {
+//     "id": "why-good-data-matters",
+//     "type": "post",
+//     "title": "Why good data matters in social services",
+//     "category": "Data & AI",
+//     "date": "2025-01-15",
+//     "excerpt": "Most nonprofits are data-rich and insight-poor. Here's what I've learned building analytics infrastructure in the social service sector.",
+//     "content": "## The problem\n\nMost social service organisations collect a lot of data. Case notes, intake forms, programme attendance, volunteer hours — the list goes on. But very few of them can answer a simple question on the spot: *is our work making a difference?*\n\nThis isn't a data problem. It's an infrastructure problem.\n\n## What I found at TOUCH\n\nWhen I joined the Technology & Innovation team, we had data in at least six different systems, none of which talked to each other. Reports were built manually in Excel every quarter. By the time a report landed on a manager's desk, the data was three months old.\n\n## What we built\n\nWe built an end-to-end analytics pipeline — ingesting data from multiple source systems, transforming it into a clean data model, and surfacing it through live dashboards. The whole thing runs on Azure, with Python handling the ETL and Power BI on the front end.\n\nThe result: programme managers can now see impact metrics in real time. What used to take a week of manual work now happens automatically, every night.\n\n## The bigger lesson\n\nGood data infrastructure doesn't just save time. It changes the questions people ask. When you make insight accessible, people start asking *why* instead of just *what*. That's when technology starts to matter."
+//   }
+// ]

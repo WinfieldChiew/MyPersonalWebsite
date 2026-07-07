@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Winfield Chiew — Technology &amp; Innovation</title>
+  <meta name="description" content="Winfield Chiew — working at the intersection of IT, software, data analytics, and AI at TOUCH Community Services, Singapore.">
+  <meta name="author" content="Winfield Chiew">
+  <meta property="og:title" content="Winfield Chiew — Technology &amp; Innovation">
+  <meta property="og:description" content="Portfolio, projects, and writing from a nonprofit-sector technologist.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PV2VXWKK2F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PV2VXWKK2F');
+  </script>
+
+  <link rel="icon" type="image/png" href="resources/Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ── Ambient orbs ───────────────────────────── -->
+  <div class="orb-layer">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="orb orb4"></div>
+  </div>
+
+  <!-- ── Navigation ────────────────────────────── -->
+  <nav id="nav">
+    <a href="#home" class="nav-logo">Winfield Chiew</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#about"          class="nav-link">About</a>
+        <a href="#experience"     class="nav-link">Experience</a>
+        <a href="#learning"       class="nav-link">Learning</a>
+        <a href="#certifications" class="nav-link">Certs</a>
+        <a href="#skills"         class="nav-link">Skills</a>
+        <a href="#work"           class="nav-link">Work</a>
+        <a href="#writing"        class="nav-link">Writing</a>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <span id="theme-icon"></span>
+      </button>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── Main ──────────────────────────────────── -->
+  <main>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="home">
+      <div class="sec-pad">
+        <div class="hero-grid">
+
+          <!-- Text -->
+          <div>
+            <div class="hg" style="transition-delay:0ms">
+              <p class="hero-kicker">Hello, I'm</p>
+            </div>
+            <div class="hg" style="transition-delay:160ms">
+              <h1 class="hero-name">Winfield Chiew</h1>
+            </div>
+            <div class="hg" style="transition-delay:300ms">
+              <p class="hero-tagline">I build things that work, for people who matter</p>
+            </div>
+            <div class="hg" style="transition-delay:440ms">
+              <div class="hero-rule"></div>
+              <p class="hero-desc">I work in Digital Solutions, Data &amp; AI at TOUCH Community Services — bridging IT, software development, data analytics and AI. My belief is simple: good technology should lighten the load for those doing the most important work in our communities.</p>
+            </div>
+            <div class="hg" style="transition-delay:560ms">
+              <div class="hero-ctas">
+                <a href="#work"    class="btn-primary">View my work</a>
+                <a href="#contact" class="btn-secondary">Get in touch</a>
+              </div>
+            </div>
+            <div class="hg" style="transition-delay:680ms">
+              <div class="hero-socials">
+                <a href="https://linkedin.com/in/winfield28" target="_blank" rel="noopener" class="social-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  LinkedIn
+                </a>
+                <a href="https://github.com/winfieldchiew" target="_blank" rel="noopener" class="social-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  GitHub
+                </a>
+                <a href="mailto:winfieldchiewf@gmail.com" class="social-link">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  Email
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo -->
+          <div class="hg hero-photo-col" style="transition-delay:280ms">
+            <div class="hero-photo-wrap">
+              <div class="hero-photo-inner">
+                <img src="resources/ProfilePicture.jpg" alt="Winfield Chiew">
+              </div>
+              <div class="hero-photo-orb-green"></div>
+              <div class="hero-photo-orb-amber"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="scroll-cue">
+        <span class="scroll-cue-label">Scroll</span>
+        <div class="scroll-cue-line"></div>
+      </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">01 — About</span>
+          <h2 class="sec-title">Who I am</h2>
+          <div class="two-col about-grid">
+            <div>
+              <p class="about-body">I'm Winfield — a tech generalist working in Digital Solutions, Data & AI at TOUCH Community Services in Singapore. My work spans a broad range: from keeping systems running and supporting teams, to building software solutions, making sense of data, and exploring what AI can do in a social services context.</p>
+              <p class="about-body">I'm largely self-taught, and I've come to embrace the wide scope rather than fight it. Every new problem is a chance to learn something — and the best solutions often come from connecting dots across disciplines. The field moves fast, and honestly, I wouldn't have it any other way.</p>
+              <p class="about-body">Outside of work, you'll find me tinkering with side projects, self-hosting tools, or picking up something new just for the fun of it. Same curiosity, fewer meetings.</p>
+              <p class="about-body">At the end of the day, what drives me is simple: I want the technology I build to actually help — especially for the people doing the hardest, most meaningful work in our communities.</p>
+            </div>
+            <div class="about-traits">
+              <div class="trait">
+                <div class="trait-dot"></div>
+                <div>
+                  <p class="trait-title">Curious by nature</p>
+                  <p class="trait-desc">Always learning — whether it's a new framework, a better process, or a different way of thinking about a problem.</p>
+                </div>
+              </div>
+              <div class="trait">
+                <div class="trait-dot"></div>
+                <div>
+                  <p class="trait-title">Impact-driven</p>
+                  <p class="trait-desc">Success isn't measured in lines of code, but in whether the work genuinely helps someone do their job better.</p>
+                </div>
+              </div>
+              <div class="trait">
+                <div class="trait-dot"></div>
+                <div>
+                  <p class="trait-title">Based in Singapore</p>
+                  <p class="trait-desc">Working in the social service sector, building tools that matter for Singapore's communities.</p>
+                </div>
+              </div>
+              <div class="trait">
+                 <div class="trait-dot"></div>
+                <div>
+                  <p class="trait-title">Builder by habit</p>
+                  <p class="trait-desc">If there's a problem worth solving, I'd rather build something than wait for a solution to appear.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EXPERIENCE ═══ -->
+    <section id="experience" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">02 — Experience</span>
+          <h2 class="sec-title">Where I've worked</h2>
+          <div id="experience-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ LEARNING ═══ -->
+    <section id="learning" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">03 — Learning</span>
+          <h2 class="sec-title">Education &amp; Courses</h2>
+          <div class="two-col learning-grid">
+            <div>
+              <h3 class="learning-col-title">Formal Education</h3>
+              <div id="education-list"></div>
+            </div>
+            <div>
+              <h3 class="learning-col-title">Ongoing Learning</h3>
+              <div id="courses-list" class="courses-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CERTIFICATIONS ═══ -->
+    <section id="certifications" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">04 — Certifications</span>
+          <div class="sec-title-row">
+            <h2 class="sec-title" style="margin-bottom:0">Certifications</h2>
+            <span id="cert-count-badge" class="count-badge"></span>
+          </div>
+          <div id="certs-grid" class="certs-grid"></div>
+          <div id="certs-more" class="see-all-row" style="display:none">
+            <a href="#" class="see-all-link"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SKILLS ═══ -->
+    <section id="skills" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">05 — Skills</span>
+          <h2 class="sec-title">What I work with</h2>
+          <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ WORK ═══ -->
+    <section id="work" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">06 — Work</span>
+          <div class="sec-title-row">
+            <h2 class="sec-title" style="margin-bottom:0">Work &amp; Projects</h2>
+            <span id="project-count-badge" class="count-badge"></span>
+          </div>
+          <div id="projects-grid" class="work-grid"></div>
+          <div id="projects-more" class="see-all-row" style="display:none">
+            <a href="#" class="see-all-link"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ WRITING ═══ -->
+    <section id="writing" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">07 — Writing</span>
+          <div class="sec-title-row">
+            <h2 class="sec-title" style="margin-bottom:0">Writing</h2>
+            <span id="writing-badge" class="writing-badge"></span>
+          </div>
+          <div id="writing-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" data-reveal>
+      <div class="sec-pad">
+        <div class="reveal">
+          <span class="sec-label">08 — Contact</span>
+          <div class="two-col contact-grid">
+
+            <!-- Left -->
+            <div>
+              <h2 class="sec-title">Let's talk</h2>
+              <p class="contact-desc">Have a project in mind, a question about my work, or just want to say hello? I'd love to hear from you.</p>
+              <div class="contact-links">
+                <a href="https://linkedin.com/in/winfield28" target="_blank" rel="noopener" class="contact-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  linkedin.com/in/winfield28
+                </a>
+                <a href="https://github.com/winfieldchiew" target="_blank" rel="noopener" class="contact-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  github.com/winfieldchiew
+                </a>
+                <a href="mailto:winfieldchiewf@gmail.com" class="contact-link">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  winfieldchiewf@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Right: form -->
+            <div>
+              <div id="form-success" class="form-success">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                <p class="form-success-text">Message sent! I'll get back to you soon.</p>
+              </div>
+              <form id="contact-form" class="contact-form">
+                <div>
+                  <label class="form-label" for="form-name">Name</label>
+                  <input id="form-name" type="text" class="form-input" required placeholder="Your name">
+                </div>
+                <div>
+                  <label class="form-label" for="form-email">Email</label>
+                  <input id="form-email" type="email" class="form-input" required placeholder="your@email.com">
+                </div>
+                <div>
+                  <label class="form-label" for="form-message">Message</label>
+                  <textarea id="form-message" class="form-input form-textarea" required rows="5" placeholder="What's on your mind?"></textarea>
+                </div>
+                <button id="submit-btn" type="submit" class="btn-submit">Send message</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────── -->
+  <footer>
+    <div class="sec-pad footer-inner">
+      <div>
+        <p class="footer-name">Winfield Chiew</p>
+        <p class="footer-sub">Technology &amp; Innovation · Singapore</p>
+        <p class="footer-copy">© <span id="footer-year"></span> Winfield Chiew</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://linkedin.com/in/winfield28" target="_blank" rel="noopener" aria-label="LinkedIn" class="icon-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://github.com/winfieldchiew" target="_blank" rel="noopener" aria-label="GitHub" class="icon-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="mailto:winfieldchiewf@gmail.com" aria-label="Email" class="icon-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="#" target="_blank" rel="noopener" class="resume-btn">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
